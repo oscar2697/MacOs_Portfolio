@@ -14,7 +14,7 @@ const navLinks = [
         name: "Resume",
         type: "resume",
     },
-];
+]
 
 const navIcons = [
     {
@@ -33,98 +33,87 @@ const navIcons = [
         id: 4,
         img: "/icons/mode.svg",
     },
-];
+]
 
 const dockApps = [
     {
         id: "finder",
-        name: "Portfolio", // was "Finder"
+        name: "Portfolio", 
         icon: "finder.png",
         canOpen: true,
     },
     {
         id: "safari",
-        name: "Articles", // was "Safari"
+        name: "Articles", 
         icon: "safari.png",
         canOpen: true,
     },
     {
         id: "photos",
-        name: "Gallery", // was "Photos"
+        name: "Gallery", 
         icon: "photos.png",
         canOpen: true,
     },
     {
         id: "contact",
-        name: "Contact", // or "Get in touch"
+        name: "Contact", 
         icon: "contact.png",
         canOpen: true,
     },
     {
         id: "terminal",
-        name: "Skills", // was "Terminal"
+        name: "Skills", 
         icon: "terminal.png",
         canOpen: true,
     },
     {
         id: "trash",
-        name: "Archive", // was "Trash"
+        name: "Archive", 
         icon: "trash.png",
         canOpen: false,
     },
-];
+]
 
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "Sep 25, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+            "AI Genomics: How Artificial Intelligence is Revolutionizing Genetic Research",
         image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        link: "https://www.linkedin.com/posts/oscar-lindo-13071319b_ai-genomics-machinelearning-activity-7364843530361397248-JtvS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC7p6fQBqCJL139QsZPVWpCJud-OQQenpL0",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+        date: "Sep 9, 2025",
+        title: "Deep Learning for Audio: How AI is Revolutionizing Sound Analysis",
         image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        link: "https://www.linkedin.com/posts/oscar-lindo-13071319b_deeplearning-audioai-cnn-activity-7362411475367256065-LZBR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC7p6fQBqCJL139QsZPVWpCJud-OQQenpL0",
     },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-    },
-];
+]
 
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
-    },
-    {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        items: ["React.js", "Next.js", "TypeScript", "JavaScript"],
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["Tailwind CSS", "Bootstrap", "CSS"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express", "RestAPIs", "Python"],
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["PostgreSQL", "MongoDB", "MySQL"],
     },
     {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "Dev Tools / Cloud",
+        items: ["Git", "GitHub", "Docker", "Vercel"],
     },
-];
+]
 
 const socials = [
     {
@@ -132,30 +121,16 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/oscar2697",
     },
     {
         id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
-        bg: "#4bcb63",
-        link: "https://jsmastery.com/",
-    },
-    {
-        id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
-        bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
-    },
-    {
-        id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/oscar-lindo-13071319b/",
     },
-];
+]
 
 const photosLinks = [
     {
@@ -183,7 +158,7 @@ const photosLinks = [
         icon: "/icons/gicon5.svg",
         title: "Favorites",
     },
-];
+]
 
 const gallery = [
     {
@@ -202,7 +177,7 @@ const gallery = [
         id: 4,
         img: "/images/gal4.png",
     },
-];
+]
 
 export {
     navLinks,
@@ -213,7 +188,7 @@ export {
     socials,
     photosLinks,
     gallery,
-};
+}
 
 const WORK_LOCATION = {
     id: 1,
@@ -222,41 +197,42 @@ const WORK_LOCATION = {
     icon: "/icons/work.svg",
     kind: "folder",
     children: [
-        // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Variant Analysis Evo2 - Genomic AI Platform",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            position: "top-10 left-5",
+            windowPosition: "top-[5vh] left-5",
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Variant Analysis Evo2 - Genomic AI Platform.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "A powerful genomic analysis platform that leverages AI to interpret genetic variants. The application provides researchers with an intuitive interface for variant analysis, combining clinical data with AI-powered predictions to facilitate advanced genomic research and personalized medicine.",
+                        "Implemented real-time variant analysis with 95% accuracy",
+                        "Reduced analysis time from hours to seconds using optimized AI models",
+                        "Integrated with major genomic databases (ClinVar, UCSC)",
+                        "Built responsive visualization tools for complex genomic data",
+                        "This project demonstrates expertise in deep learning, full-stack development, and interactive AI-powered web applications.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "Variant Analysis Evo2 - Genomic AI Platform",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://variant-analysis-evo2-livid.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "evo2.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -265,20 +241,18 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "code.git",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/oscar2697/variant_analysis_evo2",
                     position: "top-60 right-20",
                 },
             ],
         },
-
-        // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Audio CNN - Sound Classification System",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,25 +260,27 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Audio CNN - Sound Classification System Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Audio CNN is a deep learning project for environmental sound classification using a ResNet-based Convolutional Neural Network on the ESC-50 dataset",
+                        "Real-time audio classification via a modern React frontend",
+                        "Mel-spectrogram processing with data augmenta",
+                        "Visualizations of CNN feature maps and predictions",
+                        "Serverless deployment for scalable training and inference",
+                        "This project demonstrates expertise in deep learning, full-stack development, and interactive AI-powered web applications."
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "Audio CNN - Sound Classification System",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://cnn-neuralnetwork.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
@@ -318,20 +294,18 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "code.git",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/oscar2697/cnn_neuralnetwork",
                     position: "top-60 left-5",
                 },
             ],
         },
-
-        // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "BankApp",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,30 +313,22 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "BankApp Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "BankApp is a modern and secure banking application with 200 users, built with the MERN stack (MongoDB, Express.js, React.js, Node.js)",
+                        "Role-based authentication and secure JWT-based login.",
+                        "Atomic fund transfers with comprehensive validation.",
+                        "Real-time notifications and transaction history.",
+                        "Elegant React frontend with Tailwind CSS and robust Node.js backend.",
                     ],
                 },
                 {
-                    id: 2,
-                    name: "food-delivery-app.com",
-                    icon: "/images/safari.png",
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-                    position: "top-10 right-20",
-                },
-                {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "bankapp.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -371,17 +337,17 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "code.git",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/oscar2697/BankApp",
                     position: "top-60 right-20",
                 },
             ],
         },
     ],
-};
+}
 
 const ABOUT_LOCATION = {
     id: 2,
@@ -397,7 +363,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/oscar.png",
         },
         {
             id: 2,
@@ -406,16 +372,16 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/oscar-2.png",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "graduation-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/oscar-3.png",
         },
         {
             id: 4,
@@ -425,16 +391,16 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/oscar.png",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Oscar 👋, a Software Engineer dedicated to crafting frontend experiences that are as functional as they are visually clean.",
+                "I specialize in the JavaScript ecosystem, particularly React and Next.js, building scalable applications that prioritize performance and user experience.",
+                "I’m a firm believer in clean code and Agile methodologies; I love the challenge of bridging the gap between complex backend logic and intuitive UI.",
+                "When I’m not debugging or fine-tuning TypeScript components, you’ll likely find me experimenting with cloud deployments on Vercel.",
             ],
         },
     ],
-};
+}
 
 const RESUME_LOCATION = {
     id: 3,
@@ -449,11 +415,9 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            // you can add `href` if you want to open a hosted resume
-            // href: "/your/resume/path.pdf",
         },
     ],
-};
+}
 
 const TRASH_LOCATION = {
     id: 4,
@@ -481,16 +445,16 @@ const TRASH_LOCATION = {
             imageUrl: "/images/trash-2.png",
         },
     ],
-};
+}
 
 export const locations = {
     work: WORK_LOCATION,
     about: ABOUT_LOCATION,
     resume: RESUME_LOCATION,
     trash: TRASH_LOCATION,
-};
+}
 
-const INITIAL_Z_INDEX = 1000;
+const INITIAL_Z_INDEX = 1000
 
 const WINDOW_CONFIG = {
     finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
@@ -501,6 +465,6 @@ const WINDOW_CONFIG = {
     terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
     txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
     imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-};
+}
 
-export { INITIAL_Z_INDEX, WINDOW_CONFIG };
+export { INITIAL_Z_INDEX, WINDOW_CONFIG }
