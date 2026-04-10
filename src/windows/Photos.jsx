@@ -40,7 +40,7 @@ const Photos = () => {
                         {gallery.map(({ id, img }) => (
                             <li
                                 key={id}
-                                onClick={() => openWindow('img', {
+                                onClick={() => openWindow('imgfile', {
                                     id,
                                     name: 'Gallery Image',
                                     icon: '/images/image.png',
@@ -52,6 +52,7 @@ const Photos = () => {
                                 <img
                                     src={img}
                                     alt={`Gallery image ${id}`}
+                                    loading="lazy"
                                 />
                             </li>
                         ))}
